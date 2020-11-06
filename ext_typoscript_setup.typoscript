@@ -1,0 +1,21 @@
+
+config.tx_extbase {
+  persistence {
+    classes {
+
+      Evoweb\SfRegister\Domain\Model\FrontendUser {
+        subclasses {
+          Tx_KeycloakConnectorSso_KeycloakUser = OK\KeycloakConnectorSso\Domain\Model\KeycloakUser
+          
+        }
+      }
+      OK\KeycloakConnectorSso\Domain\Model\KeycloakUser {
+        mapping {
+          tableName = fe_users
+          recordType = Tx_KeycloakConnectorSso_KeycloakUser
+        }
+      }
+
+    }
+  }
+}

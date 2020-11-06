@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:keycloak_adapter/Resources/Private/Language/locallang_csh" date="2020-10-05T00:26:51Z" product-name="keycloak_adapter">
+		<header/>
+		<body>
+			<trans-unit id="keycloak_user_id.description" resname="keycloak_user_id.description">
+				<source>The keycloak user id.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

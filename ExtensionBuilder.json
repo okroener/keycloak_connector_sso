@@ -1,0 +1,92 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    460,
+                    57
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "KeycloakUser",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "fe_users",
+                    "parentClass": "\\Evoweb\\SfRegister\\Domain\\Model\\FrontendUser",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1496984739234"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "The keycloak user id.",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "keycloakUserId",
+                            "propertyType": "String",
+                            "uid": "1289799018423"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "This extensions provides a connector to keycloak IAM.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 10.4.0-10.4.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "beta",
+            "targetVersion": "10.4.0-10.4.99",
+            "version": "0.9.1"
+        },
+        "extensionKey": "keycloak_connector_sso",
+        "name": "Keycloak connector SSO",
+        "originalExtensionKey": "keycloak_connector_sso",
+        "originalVendorName": "OK",
+        "persons": [
+            {
+                "company": "Oliver Kroener Digitization",
+                "email": "ok@oliver-kroener.de",
+                "name": "Oliver Kroener",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "OK"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/mytypo3\/public\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2020-11-06 11:00",
+        "extension_builder_version": "9.11.0",
+        "be_user": " (1)"
+    }
+}

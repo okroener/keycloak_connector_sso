@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:keycloak_connector_sso/Resources/Private/Language/locallang_db" date="2020-11-06T11:00:03Z" product-name="keycloak_connector_sso">
+		<header/>
+		<body>
+			<trans-unit id="tx_keycloakconnectorsso_domain_model_keycloakuser" resname="tx_keycloakconnectorsso_domain_model_keycloakuser">
+				<source>Keycloak User</source>
+			</trans-unit>
+			<trans-unit id="tx_keycloakconnectorsso_domain_model_keycloakuser.keycloak_user_id" resname="tx_keycloakconnectorsso_domain_model_keycloakuser.keycloak_user_id">
+				<source>Keycloak User Id</source>
+			</trans-unit>
+			<trans-unit id="fe_users.tx_extbase_type.Tx_KeycloakConnectorSso_KeycloakUser" resname="fe_users.tx_extbase_type.Tx_KeycloakConnectorSso_KeycloakUser">
+				<source>Keycloak connector SSO KeycloakUser</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
